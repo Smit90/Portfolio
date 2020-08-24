@@ -1,11 +1,17 @@
 import React from 'react';
 
+import Common from "./Common";
+import web from "../src/images/about.svg";
+
 const About = () => {
-    return (
-    <>
-      <h1>Welcome to About Page</h1>
-    </>
-    );
+  return (
+    <Common 
+            name="Welcome to About Page"
+            imgsrc={web} 
+            visit="/contact" 
+            btname="Contact Now"
+    />
+  );
 }
 
 export default About;
