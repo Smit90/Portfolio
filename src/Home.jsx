@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 
-import web from "../src/images/1st.svg";
+import web from "../src/images/developer.svg";
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
@@ -17,11 +17,11 @@ const Home = () => {
               <div className="row">
                 <div className="col-md-6 pt-5 pt-lg-0 oreder-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
-                    Grow your bussiness with
-                    <strong id="brandname"> Smit Patel</strong>
+                    Hello, I'm
+                    <strong id="brandname"> Smit Patel. </strong>
                   </h1>
                   <h5 className="my-3">
-                    I'm Web Developer and making websites.
+                    I'm Front End/ Back End Developer.
                   </h5>
                   <div className="mt-3">
                     <NavLink to="/service" className="btn btn-outline-primary">Get Started</NavLink>
