@@ -1,8 +1,5 @@
-import web from "./images/1st.svg";
 import app from "./images/2nd.svg";
-import web1 from "./images/1st.svg";
 import app1 from "./images/2nd.svg";
-import web2 from "./images/1st.svg";
 import app2 from "./images/2nd.svg";
 
 const Sdata = [

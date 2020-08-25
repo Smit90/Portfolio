@@ -42,3 +42,13 @@ code {
 .nav-link:hover{
   color: #3498db;
 }
+
+p {
+  margin-top: 15;
+  margin-bottom: 1rem;
+}
+
+.skill-section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
