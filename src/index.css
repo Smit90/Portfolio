@@ -52,3 +52,8 @@ p {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+.card:hover{
+  opacity: 0.3;
+}
+
