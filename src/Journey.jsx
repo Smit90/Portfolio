@@ -39,13 +39,13 @@ const Journey = () => {
                         </div>
                         <div className="row">
                             <div className="col-sm-4 col-md-4 order-3 order-lg-1 ">
-                                <h6>I am studying C.E.in Bhagwan Arihant Institue of Technology. I complete my Bachelor in 2021.</h6>
+                                <h6>I am studying C.E. in Bhagwan Arihant Institue of Technology. I'll complete my Bachelor in 2021.</h6>
                             </div>
                             <div className="col-md-4 d-flex justify-content-center order-2 order-lg-2">
                             <img alt="journey-img" src="https://img.icons8.com/dotty/80/000000/student-male.png"/>        
                                                 </div>
                             <div className="col-sm-4 col-md-4 order-1 order-lg-3 "><h2>2017-2021</h2>
-                                <h4>Secondery High School</h4>
+                                <h4>College</h4>
                             </div>
                         </div>
                         <div className=" d-flex justify-content-center">

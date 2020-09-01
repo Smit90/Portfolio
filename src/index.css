@@ -57,3 +57,35 @@ p {
   opacity: 0.3;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+.fa-facebook:hover{
+  color: #3B5998;
+}
+
+.fa-instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter:hover{
+  color: #55ACEE;
+}
+
+.fa-linkedin:hover{
+  color: #007bb5;
+}
+
+.fa-github:hover{
+  color:grey;
+}
+

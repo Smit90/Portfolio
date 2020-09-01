@@ -7,7 +7,7 @@ const Skills = (props) => {
 
     return (
         <>
-            <div className="container-fluid my-5 ">
+            <div className="container-fluid ">
                 <div className="row">
                 <h2 className="text-center p-3">My Skills</h2>
                     <div className="col-10 mx-auto ">

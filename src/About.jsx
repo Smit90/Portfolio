@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <Common
-        name="Welcome to About Page"
+        name="About"
         imgsrc={web}
         visit="/contact"
         btname="Contact Now"
