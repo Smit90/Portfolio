@@ -10,6 +10,7 @@ const Home = () => {
         name="Hello, I'm"
         imgsrc={web}
         visit="/service"
+        text="I'm Front End/ Back End Developer."
         btname="Get Started" />
     <Social />
 

@@ -13,6 +13,7 @@ const About = () => {
         name="About"
         imgsrc={web}
         visit="/contact"
+        text="I'm constantly learning new things."
         btname="Contact Now"
       />
       <Skills />

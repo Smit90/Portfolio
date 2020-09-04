@@ -31,7 +31,7 @@ const Common = (props) => {
                     </strong>
                   </h1>
                   <h4 className="my-3">
-                    I'm Front End/ Back End Developer.
+                    {props.text}
                   </h4>
                   <div className="mt-3">
                     <NavLink to={props.visit} className="btn btn-outline-primary">{props.btname}</NavLink>

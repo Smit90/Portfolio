@@ -5,15 +5,21 @@ import app2 from "./images/2nd.svg";
 const Sdata = [
     {
         imgsrc: app,
-        title:"Project 1"
+        title:"Weather App",
+        demolink:'https://smit-react-weather-app.herokuapp.com/',
+        codelink:'https://github.com/Smit90/Weather-App'
     },
     {
         imgsrc: app,
-        title:"Project 2"
+        title:"Breaking Bad",
+        demolink:'https://smit-breaking-bad-characters.herokuapp.com/',
+        codelink:'https://github.com/Smit90/Breaking-bad-Characters'
     },
     {
         imgsrc: app,
-        title:"Project 3"
+        title:"Portfolio",
+        demolink:'https://smitpatel-portfolio.herokuapp.com/',
+        codelink:'https://github.com/Smit90/Portfolio'
     },
     {
         imgsrc: app1,

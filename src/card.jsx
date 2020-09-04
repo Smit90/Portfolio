@@ -4,12 +4,17 @@ const Card = (props) => {
   return (
     <>
       <div className="col-md-4 col-10 mx-auto">
-        <div className="card">
-          <img src={props.imgsrc} className="card-img-top" alt={props.imgsrc} />
-          <div className="card-body">
-            <h5 className="card-title text-center">{props.title}</h5>
-            {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <NavLink to="#" className="btn btn-primary">Go somewhere</NavLink> */}
+        <div className="card card-flip ">
+          <div className="card-front">
+            <img src={props.imgsrc} className="card-img-top" alt={props.imgsrc} />
+          </div>
+          <div className="card-back bg-dark">
+            <div className="card-body">
+              <h5 className="card-title text-center">{props.title}</h5>
+              <div className="text-center p-2">
+                <a className="btn btn-outline-success" href={props.demolink} target="_blank" rel="noopener noreferrer" role="button">Demo</a> <a className="btn btn-outline-primary" href={props.codelink} target="_blank" rel="noopener noreferrer" role="button">Code</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

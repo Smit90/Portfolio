@@ -1,12 +1,12 @@
 import React from 'react';
-import Card from "./card";
+import Card from "./Card";
 import Sdata from "./Sdata";
 
 const Service = () => {
   return (
     <>
       <div className="my-5">
-        <h1 className="text-center">Our Services</h1>
+        <h1 className="text-center">Projects</h1>
       </div>
       <div className="container-fluid md-5">
         <div className="row">
@@ -17,6 +17,8 @@ const Service = () => {
                       key={ind}
                       imgsrc={val.imgsrc}
                       title={val.title}
+                      demolink={val.demolink}
+                      codelink={val.codelink}
                     />
                   })
                 }
